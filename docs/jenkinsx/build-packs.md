@@ -15,7 +15,7 @@ There's three ways you can use a build pack:
 * when you import an existing project (`jx import`)
 * referencing it in a `jenkins-x.yaml` pipeline file
 
-A build pack contains resources related to the pipeline, both a `Jenkinsfile` for static Jenkins and a `jenkins-x.yanl` for Jenkins X pipelines.
+A build pack contains resources related to the pipeline, both a `Jenkinsfile` for static Jenkins and a `jenkins-x.yaml` for Jenkins X pipelines.
 
 In addition, it contains everything else required to get an application of a specific technology and framework to build, versioned, containerized, and deployed with Helm. This means it contains a `Dockerfile` and a Helm Chart at least.
 
